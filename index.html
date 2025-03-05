@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quick Bites</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital@0;1&family=Poppins:wght@300;400;700&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style/home.css">
+</head>
+<body>
+    <header class="header">
+        <div class="header-container">
+            <a href="index.html">
+                <img src="img/QuickBiteslogo.png" alt="Quick Bites Logo" class="header-container-logo">
+            </a>
+            <nav class="header-container-header-nav">
+                <a href="#banner">Inicio</a>
+                <a href="#nosotros">Nosotros</a>
+                <a href="#menu">Menú</a>
+                <a href="pedidos.html">Pedidos</a>
+                <a href="contacto.html">Contacto</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="main">
+        <section class="main-section-hero" id="banner">
+            <div>
+                <img class="main-section-hero-banner" src="img/hero-robo.png" alt="Banner" >
+                <div class="main-section-hero-content">
+                    <h1>Quick Bites</h1>
+                    <h3>Fast Food</h3>
+                    <a href="#menu" class="main-section-hero-btn">Ordenar</a>
+                </div>
+            </div>
+           
+        </section>
+
+        <section class="main-section-nosotros" id="nosotros">
+            <div class="main-section-nosotros-nos">
+                <h1>Quick Bites</h1>
+            </div>
+            <div class="main-section-nosotros-grid-container">
+                <div class="main-section-nosotros-grid-container-text">
+                    <h4>Quick Bites</h4>
+                    <h1>Deliciosa Comida Rapida Para Llevar</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo assumenda numquam quod qui itaque, perferendis dolores dolore, recusandae harum pariatur officiis at nulla quibusdam iusto sint, ratione nisi saepe.</p>
+                </div>
+                <div class="main-section-nosotros-grid-container-img">
+                    <img src="img/taco-birria-history.webp">
+            </div>
+        </section>
+
+        <section class="main-section-menu" id="menu">
+            <h2 class="main-section-menu-title">Menú</h2>
+            <div id="product-menu">
+                <!-- Aquí se insertarán los productos dinámicamente -->
+            </div>
+        </section>
+    </main>
+    
+    <footer>
+        <p>&copy; 2024 Quick Bites. Todos los derechos reservados.</p>
+    </footer>
+    <script src="script/home.js" defer></script>
+    <script src="script/display-products.js" defer></script>
+
+    <script src="script/ordenar.js" defer></script>
+   
+ 
+</body>
+</html>
